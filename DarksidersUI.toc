@@ -1,0 +1,95 @@
+## Interface: 80000
+## Author: Vaelin
+## Title: |cffffffffDarksiders |cff8e2ce1UI
+## Dependencies: oUF
+## SavedVariables: dksdAlwaysActionBar, dksdCombatActionBar, dksdRaidLayout, dksdRaidX, dksdRaidY
+
+#  ~libraries first
+core\plugins\LibStub\Libstub.lua
+
+core\plugins\NoTaint_UIDropDownMenu\UIDropDownMenuTemplates.xml
+core\plugins\NoTaint_UIDropDownMenu\UIDropDownMenu.lua
+core\plugins\NoTaint_UIDropDownMenu\EasyMenu.lua
+core\plugins\oUF_Smooth\oUF_Smooth.lua
+
+#  ~insert templates
+templates.xml
+
+
+core\typeface\text.lua
+core\typeface\textManipulation.lua
+core\colour\class.lua
+core\colour\reaction.lua
+core\api\events.lua
+core\api\skins.lua
+core\api\style.lua
+core\api\values.lua
+core\delegate\position.lua
+core\vars\svar.lua
+
+
+elements\minimap\cluster.lua
+elements\minimap\difficulty.lua
+elements\minimap\icons.lua
+elements\minimap\minimap.lua
+
+elements\bag\bag\bag.lua
+elements\bag\button.lua
+elements\bag\bank\bank.lua
+elements\bag\tools\greys.lua
+elements\bag\tools\tradeskills.lua
+elements\bag\update.lua
+
+elements\bar\bar.lua
+
+
+elements\bar\skin.lua
+elements\bar\buttons.lua
+elements\bar\hide.lua
+
+# elements\bar\clock.lua
+# elements\bar\update.lua
+# elements\bar\bindings.lua
+
+elements\chat\cmd.lua
+
+elements\unitframe\auras.lua
+elements\unitframe\tags.lua
+elements\unitframe\update.lua
+elements\unitframe\shared\layout.lua
+elements\unitframe\player\layout.lua
+elements\unitframe\target\layout.lua
+elements\unitframe\targettarget\layout.lua
+# elements\unitframe\pet\layout.lua
+# elements\unitframe\tot\layout.lua
+# elements\unitframe\boss\layout.lua
+# elements\unitframe\arena\layout.lua
+# elements\unitframe\focus\layout.lua
+elements\unitframe\generate.lua
+
+elements\groupframe\auras\spelllist.lua
+elements\groupframe\auras\auras.lua
+elements\groupframe\info\info.lua
+elements\groupframe\tags.lua
+elements\groupframe\update.lua
+elements\groupframe\sizing.lua
+elements\groupframe\shared\layout.lua
+elements\groupframe\party\layout.lua
+elements\groupframe\tanks\layout.lua
+elements\groupframe\healers\layout.lua
+elements\groupframe\dps\layout.lua
+elements\groupframe\generate.lua
+
+#elements\nameplates\nameplates.lua
+#elements\nameplates\resource.lua
+#
+elements\objectives\objectives.lua
+
+#elements\talking_head\talkinghead.lua
+
+elements\tooltip\content.lua
+elements\tooltip\layout.lua
+
+elements\character\layout.lua
+
+elements\menu\layout.lua
