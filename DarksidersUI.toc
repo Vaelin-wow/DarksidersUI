@@ -93,3 +93,5 @@ elements\tooltip\layout.lua
 elements\character\layout.lua
 
 elements\menu\layout.lua
+
+elements\weakauras\skin.lua
